@@ -47,3 +47,16 @@ Planetary Data Sets
 - Jupyter Notebook
 - Pandas
 - Matplotlib
+
+#Project Milestones
+| Milestone | Due Date | Status |
+|----------|----------|----------|
+| Project Ideation | 1/23/25 | Complete |
+| Git Project Creation | 1/23/25 | Complete |
+| Data Fetching | 1/23/25 | Complete |
+| Data Exploration | 1/27/25 | Not Started |
+| Data Transformation | 1/28/25 | Not Started |
+| Data Analysis | 1/30/25 | Not Started |
+| Testing | Ad Hoc | As Needed |
+| Create Documentation | 2/3/25 | Not Started |
+| Create Presentation | 2/5/25 | Not Started |
