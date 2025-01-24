@@ -48,7 +48,7 @@ Planetary Data Sets
 - Pandas
 - Matplotlib
 
-#Project Milestones
+# Project Milestones
 | Milestone | Due Date | Status |
 |----------|----------|----------|
 | Project Ideation | 1/23/25 | Complete |
