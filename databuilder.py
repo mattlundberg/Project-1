@@ -35,8 +35,8 @@ def get_emergency_data():
              "./Resources/COS2024.csv"]
     return load_data(files)
 
-def get_planetary_data():
-    files = ["./Resources/planetary_data.csv"]
+def get_mercury_data():
+    files = ["./Resources/merc_retro.csv"]
     return load_data(files)
 
 def main():
