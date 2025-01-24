@@ -53,8 +53,17 @@ Planetary Data Sets
  - https://www.phoenixopendata.com/dataset/caf49f72-f22f-4ad9-9405-2a3db9619423/resource/2169fba5-a64a-42da-893d-931b97ea10ef/download/calls-for-service-fire_calls-for-service-2024_calls_for_service.csv
 
 # Program Information 
-## Programing Languages
-- Python
+## Program Information
+- Starting File: datachecker.ipynb
+
+### Programming Languages
+- Python 3.x
+
+### Required Libraries/Dependencies
 - Jupyter Notebook
-- Pandas
-- Matplotlib
+- pandas
+- matplotlib
+
+### Development Environment
+- Jupyter Notebook/JupyterLab for interactive data analysis
+- Git for version control
