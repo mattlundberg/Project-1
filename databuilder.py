@@ -39,6 +39,10 @@ def get_mercury_data():
     files = ["./Resources/merc_retro.csv"]
     return load_data(files)
 
+def get_full_moon_data():
+    files = ["./Resources/full_moons.csv"]
+    return load_data(files) 
+
 def main():
     """
     TODO.
