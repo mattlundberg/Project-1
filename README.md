@@ -31,6 +31,7 @@ Join our Slack channel for project discussions and updates:
 Planetary Data Sets
  - https://www.timeanddate.com/eclipse/list.html?starty=2020
  - Nasa sources
+ - merc_retro.csv (manually generated list of dates)
 
  Emergency Calls of Service From Tempe, AZ
  - https://catalog.data.gov/dataset/1-01-als-response-time-2018-a00c4
