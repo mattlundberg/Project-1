@@ -12,9 +12,20 @@ Join our Slack channel for project discussions and updates:
 - Erin, Spencer-Priebe 
 
  ## Todo List
- - [X] Create Proposal for project
- - [ ] Find the data that we would like to work with.
- - [X] Get a list of questions taht we are asking with the data.
+ [Git Project Board](https://github.com/users/mattlundberg/projects/1)
+ ## Project Milestones
+
+| Milestone | Due Date | Status |
+|----------|----------|----------|
+| Project Ideation | 1/23/25 | Complete |
+| Git Project Creation | 1/23/25 | Complete |
+| Data Fetching | 1/23/25 | Complete |
+| Data Exploration | 1/27/25 | In Progress |
+| Data Transformation | 1/28/25 | Not Started |
+| Data Analysis | 1/30/25 | Not Started |
+| Testing | Ad Hoc | As Needed |
+| Create Documentation | 2/3/25 | Not Started |
+| Create Presentation | 2/5/25 | Not Started |
 
  ## Proposal
   Emergency calls of service and how they correlate to lunar cycles and planetary alignment. (We are measuring the increase of crazy).\
@@ -47,16 +58,3 @@ Planetary Data Sets
 - Jupyter Notebook
 - Pandas
 - Matplotlib
-
-# Project Milestones
-| Milestone | Due Date | Status |
-|----------|----------|----------|
-| Project Ideation | 1/23/25 | Complete |
-| Git Project Creation | 1/23/25 | Complete |
-| Data Fetching | 1/23/25 | Complete |
-| Data Exploration | 1/27/25 | Not Started |
-| Data Transformation | 1/28/25 | Not Started |
-| Data Analysis | 1/30/25 | Not Started |
-| Testing | Ad Hoc | As Needed |
-| Create Documentation | 2/3/25 | Not Started |
-| Create Presentation | 2/5/25 | Not Started |
