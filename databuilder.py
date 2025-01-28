@@ -1,6 +1,12 @@
 import pandas as pd
 from datetime import datetime
 
+emergency_df=pd.DataFrame()
+full_moon_df=pd.DataFrame()
+mercury_df=pd.DataFrame()
+new_moon_df=pd.DataFrame()
+
+
 def load_data(file_paths, date_columns = None):
     """
     Loads and combines data from CSV files into a single pandas DataFrame.
@@ -20,10 +26,9 @@ def load_data(file_paths, date_columns = None):
     for file in file_paths:
         try:
             df = pd.read_csv(file)
-            print(f"Loaded {file}")
+            print(f"Loading {file}")
             if date_columns:
-                for column in date_columns:
-                    df[column] = pd.to_datetime(df[column], format='mixed')
+                df[date_columns] = df[date_columns].apply(pd.to_datetime, format='mixed')
             dfs.append(df)
             print(f"Successfully loaded data for {file}")
         except Exception as e:
@@ -40,10 +45,38 @@ def load_data(file_paths, date_columns = None):
     else:
         raise ValueError("No data files were successfully loaded")
     
-
-
-
+def load_all_data():
+    global emergency_df, full_moon_df, mercury_df, new_moon_df
+    emergency_df = load_emergency_data()
+    full_moon_df = load_full_moon_data()
+    mercury_df = load_mercury_data()
+    new_moon_df = load_new_moon_data()
+    
 def get_emergency_data():
+    global emergency_df
+    if emergency_df.empty:
+        emergency_df=load_emergency_data()
+    return emergency_df
+
+def get_mercury_data():
+    global mercury_df
+    if mercury_df.empty:
+        mercury_df=load_mercury_data()
+    return mercury_df
+
+def get_full_moon_data():
+    global full_moon_df
+    if full_moon_df.empty:
+        full_moon_df=load_full_moon_data()
+    return full_moon_df
+
+def get_new_moon_data():
+    global new_moon_df
+    if new_moon_df.empty:
+        new_moon_df=load_new_moon_data()
+    return new_moon_df
+
+def load_emergency_data():
     """
     Loads and returns the emergency data.
     """
@@ -60,7 +93,7 @@ def get_emergency_data():
     return df
 
 
-def get_mercury_data():
+def load_mercury_data():
     """
     Loads and returns the Mercury retrograde data.
     """
@@ -68,7 +101,8 @@ def get_mercury_data():
     df = load_data(files, ["start_date", "end_date"])
     return df
 
-def get_full_moon_data():
+
+def load_full_moon_data():
     """
     Loads and returns the full moon data.
     """
@@ -93,18 +127,25 @@ def get_full_moon_data():
 
     return df
 
-def get_new_moon_data():
+
+def load_new_moon_data():
     """
     Loads and returns the new moon data.
     """
     files = ["./Resources/Newmoondata.csv"]
     df = load_data(files, ["DateTime"])
+    
+    # Drop any columns with 'Unnamed' in their name
+    unnamed_cols = [col for col in df.columns if 'Unnamed' in col]
+    
+    df.drop(columns=unnamed_cols, inplace=True)
     return df
 
 def main():
     """
-    TODO.
+    Loads all the data
     """
+    load_all_data()
 
 if __name__ == "__main__":
     main()
