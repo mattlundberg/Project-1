@@ -43,6 +43,9 @@ def load_data(file_paths, date_columns = None):
 
 
 def get_emergency_data():
+    """
+    Loads and returns the emergency data.
+    """
     files = ["./Resources/COS2019.csv", 
              "./Resources/COS2020.csv", 
              "./Resources/COS2021.csv", 
@@ -51,16 +54,23 @@ def get_emergency_data():
     df = load_data(files, ["REPORTED", "CLOSED"])
 
     # Drop the  columns
-    df.drop(columns=["NATURE_CODE", "NATURE_TEXT"], inplace=True)
+    df.drop(columns=["NATURE_CODE", "NATURE_TEXT", "INCIDENT_ADDRESS", "_id"], inplace=True)
 
     return df
 
+
 def get_mercury_data():
+    """
+    Loads and returns the Mercury retrograde data.
+    """
     files = ["./Resources/merc_retro.csv"]
     df = load_data(files, ["start_date", "end_date"])
     return df
 
 def get_full_moon_data():
+    """
+    Loads and returns the full moon data.
+    """
     files = ["./Resources/full_moons.csv"]
     df = load_data(files) 
 
