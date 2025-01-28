@@ -20,6 +20,7 @@ def load_data(file_paths, date_columns = None):
     for file in file_paths:
         try:
             df = pd.read_csv(file)
+            print(f"Loaded {file}")
             if date_columns:
                 for column in date_columns:
                     df[column] = pd.to_datetime(df[column], format='mixed')
@@ -90,6 +91,14 @@ def get_full_moon_data():
 
     # Columns to drop
 
+    return df
+
+def get_new_moon_data():
+    """
+    Loads and returns the new moon data.
+    """
+    files = ["./Resources/Newmoondata.csv"]
+    df = load_data(files, ["DateTime"])
     return df
 
 def main():
