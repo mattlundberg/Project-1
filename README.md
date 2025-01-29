@@ -62,8 +62,24 @@ Planetary Data Sets
 ### Required Libraries/Dependencies
 - Jupyter Notebook
 - pandas
+- numpy
 - matplotlib
+- seaborn
+- scikit-learn
 
 ### Development Environment
 - Jupyter Notebook/JupyterLab for interactive data analysis
 - Git for version control
+- VS Code (optional)
+
+### Data Files
+- CSV files containing emergency call data (2019-2023)
+- CSV files containing celestial event data:
+  - Mercury retrograde periods
+  - Full moon dates and types
+  - New moon dates
+
+### Project Structure
+- /Resources: Contains all raw data files
+- /notebooks: Jupyter notebooks for analysis
+- README.md: Project documentation
