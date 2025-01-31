@@ -20,8 +20,8 @@ Join our Slack channel for project discussions and updates:
 | Project Ideation | 1/23/25 | Complete |
 | Git Project Creation | 1/23/25 | Complete |
 | Data Fetching | 1/23/25 | Complete |
-| Data Exploration | 1/27/25 | In Progress |
-| Data Transformation | 1/28/25 | In Progress |
+| Data Exploration | 1/27/25 | Complete |
+| Data Transformation | 1/28/25 | Complete |
 | Data Analysis | 1/30/25 | In Progress |
 | Testing | Ad Hoc | As Needed |
 | Create Documentation | 2/3/25 | Not Started |
@@ -35,6 +35,7 @@ Join our Slack channel for project discussions and updates:
  - Does the number of emergency calls increase during a partial solar eclipse?
  - Does the number of emergency calls increase during a partial lunar eclipse?
  - Does the number of emergency calls increase during a total lunar eclipse?
+ - Does the number of emergency calls increase during a total solar eclipse? 
  - Does the number of emergency calls increase during a planetary alignment?
 
 
