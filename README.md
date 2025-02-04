@@ -38,6 +38,8 @@ Join our Slack channel for project discussions and updates:
  - Does the number of emergency calls increase during a total solar eclipse? 
  - Does the number of emergency calls increase during a planetary alignment?
 
+## Slide Deck
+[Superstitions in the Medical Field](https://docs.google.com/presentation/d/1UD1OkDFYxhyvThd9G9IcABsh1DPIvl7xYfk4pEMAzOQ/edit?usp=sharing)
 
 ## Data sets
 Planetary Data Sets
