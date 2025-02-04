@@ -22,9 +22,9 @@ Join our Slack channel for project discussions and updates:
 | Data Fetching | 1/23/25 | Complete |
 | Data Exploration | 1/27/25 | Complete |
 | Data Transformation | 1/28/25 | Complete |
-| Data Analysis | 1/30/25 | In Progress |
+| Data Analysis | 1/30/25 | Complete |
 | Testing | Ad Hoc | As Needed |
-| Create Documentation | 2/3/25 | Not Started |
+| Create Documentation | 2/3/25 | In Progress |
 | Create Presentation | 2/5/25 | Not Started |
 
  ## Proposal
