@@ -36,8 +36,7 @@ Join our Slack channel for project discussions and updates:
  - Does the number of emergency calls increase during a new moon?
    - Tiffany Jimenez
    - TiffanyJ_NewMoon_Analysis.ipynb
- - Does the number of emergency calls increase during a partial solar eclipse?
- - Does the number of emergency calls increase during a partial lunar eclipse?
+ - Does the number of emergency calls increase during a partial solar/lunar eclipse?
    - Sam Lara
    - Sam_Code.ipynb
  - Does the number of emergency calls increase during a total solar eclipse?
