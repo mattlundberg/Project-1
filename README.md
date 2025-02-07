@@ -149,6 +149,8 @@ Looking at the specific hours when eclipses occurred also shows virtually no dif
 
 #### Does the number of calls increase during mercury retrograde?
 
+Conclusion: No
+
 - Correlation between incident count and retrograde periods: 0.0411
 - Correlation for 2019: 0.1084
 - Correlation for 2020: 0.2956
