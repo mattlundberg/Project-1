@@ -31,12 +31,21 @@ Join our Slack channel for project discussions and updates:
   Emergency calls of service and how they correlate to lunar cycles and planetary alignment. (We are measuring the increase of crazy).\
   This research aims to explore the potential relationship between celestial events, such as lunar cycles, eclipses, and planetary alignments, and fluctuations in the frequency of emergency calls for service. While anecdotal evidence and cultural beliefs suggest a link between "crazy" behavior and events like full moons or eclipses, this study seeks to examine these claims empirically using robust data analysis.
  - Does the number of emergency calls increase during a full moon?
+   - Jason Smoody
+   - jasons_full_moon_analysis.ipynb
  - Does the number of emergency calls increase during a new moon?
+   - Tiffany Jimenez
+   - TiffanyJ_NewMoon_Analysis.ipynb
  - Does the number of emergency calls increase during a partial solar eclipse?
  - Does the number of emergency calls increase during a partial lunar eclipse?
- - Does the number of emergency calls increase during a total lunar eclipse?
- - Does the number of emergency calls increase during a total solar eclipse? 
+   - Sam Lara
+   - Sam_Code.ipynb
+ - Does the number of emergency calls increase during a total solar eclipse?
+   - Matthew Lundberg
+   - Matt_Lundberg_TLE.ipynb
  - Does the number of emergency calls increase during a planetary alignment?
+   - Erin Spencer-Priebe
+   - Erin_Spencer-Priebe_Mercury_Analysis.ipynb
 
 ## Slide Deck
 [Superstitions in the Medical Field](https://docs.google.com/presentation/d/1UD1OkDFYxhyvThd9G9IcABsh1DPIvl7xYfk4pEMAzOQ/edit?usp=sharing)
