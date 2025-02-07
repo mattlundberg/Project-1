@@ -23,9 +23,9 @@ Join our Slack channel for project discussions and updates:
 | Data Exploration | 1/27/25 | Complete |
 | Data Transformation | 1/28/25 | Complete |
 | Data Analysis | 1/30/25 | Complete |
-| Testing | Ad Hoc | As Needed |
-| Create Documentation | 2/3/25 | In Progress |
-| Create Presentation | 2/5/25 | Not Started |
+| Testing | Ad Hoc | Complete |
+| Create Documentation | 2/3/25 | Conplete |
+| Create Presentation | 2/5/25 | Complete |
 
  ## Proposal
   Emergency calls of service and how they correlate to lunar cycles and planetary alignment. (We are measuring the increase of crazy).\
