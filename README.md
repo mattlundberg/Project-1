@@ -23,9 +23,9 @@ Join our Slack channel for project discussions and updates:
 | Data Exploration | 1/27/25 | Complete |
 | Data Transformation | 1/28/25 | Complete |
 | Data Analysis | 1/30/25 | Complete |
-| Testing | Ad Hoc | As Needed |
-| Create Documentation | 2/3/25 | In Progress |
-| Create Presentation | 2/5/25 | Not Started |
+| Testing | Ad Hoc | Complete |
+| Create Documentation | 2/3/25 | Conplete |
+| Create Presentation | 2/5/25 | Complete |
 
  ## Proposal
   Emergency calls of service and how they correlate to lunar cycles and planetary alignment. (We are measuring the increase of crazy).\
@@ -86,3 +86,76 @@ Planetary Data Sets
 - /Resources: Contains all raw data files
 - /notebooks: Jupyter notebooks for analysis
 - README.md: Project documentation
+
+### Overview and Analysis
+#### Proposal
+It is a common belief in emergency services that celestial events impact human behavior. This research aims to explore the potential relationship between lunar cycles, eclipses, and Mercury retrograde periods and the frequency of emergency calls.
+
+While anecdotal evidence suggests a link between "unusual" behavior and celestial events, this study seeks to examine these claims empirically using robust data analysis techniques. By systematically investigating the correlation between emergency service demands and specific astronomical phenomena, we aim to provide a scientific perspective on these long-standing cultural beliefs.
+
+#### Does the number of calls increase during a new moon?
+
+Conclusion: No
+
+The p-value is much greater than the common threshold of 0.05, indicating that the observed difference in incident counts between new moon and non-new moon days is not statistically significant. Any difference observed is likely due to random chance rather than an actual effect of the new moon.
+
+![image](https://github.com/user-attachments/assets/a9ef79f9-c57b-4814-979c-9a4cea9dcf99)
+
+#### Does the number of calls increase during a full moon?
+
+Conclusion: No
+
+This graph doesn't show any visible relationship between full moon day incidents vs non-full moon incidents.  There one spike, in 2022 where the full moon day had more incidents.
+
+![image](https://github.com/user-attachments/assets/5a0b8679-21c8-4834-a442-1f7babd73cc4)
+
+#### Does the number of calls increase during a partial solar/lunar eclipse?
+
+Conclusion: No
+
+- The total number of emergency calls between 2019 - 2024 was: 1,150,331
+- The total number of emergency calls during a partial solar eclipse is: 598
+- The total number of emergency calls during a partial solar eclipse is: <1%
+- The total number of emergency calls between 2019 - 2024 was: 1,150,331
+- The total number of emergency calls during a partial lunar eclipse is: 4,497
+- The total number of emergency calls during a partial lunar eclipse is: <1%
+
+
+It appears that the data does not support the hypothesis of the level of emergency calls increasing during a partial solar or lunar eclipse.
+
+![image](https://github.com/user-attachments/assets/943d4ad2-3351-4d68-8d48-77889e77cdad)
+
+![image](https://github.com/user-attachments/assets/e38e0fb9-ce05-4224-b9c5-21d7b3142677)
+
+#### Does the number of calls increase during a total lunar eclipse?
+
+Conclusion: No
+
+Daily Analysis
+- Average incidents on eclipse days: 630.03
+- Average incidents on non-eclipse days: 614.29
+- Percent difference: -2.50%
+
+The nearly identical averages (just -2.50% difference) suggests that the occurrence of a total lunar eclipse has no impact on the daily volume of emergency incidents.
+
+Hourly Analysis  
+- Average incidents during eclipse hours: 26.29
+- Average incidents during non-eclipse hours: 26.25
+- Percent difference: 0.14%
+
+Looking at the specific hours when eclipses occurred also shows virtually no difference (only 0.14%) compared to non-eclipse hours.
+
+![image](https://github.com/user-attachments/assets/2f72c5ab-5ca2-4d9e-b467-98afc2e527ef)
+
+#### Does the number of calls increase during mercury retrograde?
+
+Conclusion: No
+
+- Correlation between incident count and retrograde periods: 0.0411
+- Correlation for 2019: 0.1084
+- Correlation for 2020: 0.2956
+- Correlation for 2021: -0.1126
+- Correlation for 2022: -0.0041
+- Correlation for 2023: -0.0508
+
+![image](https://github.com/user-attachments/assets/64ca4ded-c769-49a6-827a-128d3016ef43)
